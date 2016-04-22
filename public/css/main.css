@@ -1,0 +1,16 @@
+/*img{
+	width: 100%;;
+}
+.content{
+	max-height: 200px;
+	overflow: hidden;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+h1{
+	text-align: center;
+}
+*/
+.center {
+	margin:0 auto;
+}

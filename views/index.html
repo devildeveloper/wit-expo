@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The cat Api Example</title>
+	<link rel="stylesheet" href="css/vendor/foundation.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="wit">
+<!--	http://thecatapi.com/api/images/get?format=xml&results_per_page=20&type=jpg&size=med-->
+</body>
+	<main ng-controller="api" class="row">
+		<h1>The Cat Api Example</h1>
+		<div class="small-12 medium-6 large-4 columns" ng-repeat="cat in cats">
+			<div class="content">
+				<img ng-src="{{cat.url}}" alt="">
+			</div>
+		</div>
+	</main>
+	<script src="js/vendor/x2js.min.js"></script>
+	<script src="js/vendor/angular.min.js"></script>
+	<script src="js/vendor/angular-xml.min.js"></script>
+	<script src="js/app/main.js"></script>
+</html>

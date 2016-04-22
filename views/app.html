@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login example</title>
+	<link rel="stylesheet" href="/static/css/vendor/foundation.min.css">
+	<link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+	<main>
+		<form action="/login" method="POST">
+			<h1 class="text-center">Login</h1>
+			<div class="row">
+				<div class="small-12 medium-6 medium-offset-3 large-4 large-offset-4 column">
+					<div class="row">
+						<div class="small-12 column">
+							<label>Email
+								<input type="email" placeholder="Email" name="email" required>
+							</label>
+						</div>
+						<div class="small-12 column">
+							<label>Password
+								<input type="password" placeholder="Password" name="password" required>
+							</label>
+						</div>	
+						<div class="small-12 column">
+							<div class="row">
+								<div class="small-12 column">
+									<button class="expanded button success" type="submit">Iniciar sesión</button>
+								</div>
+							</div>
+						</div>								
+					</div>
+				</div>
+			</div>
+		</form>
+	</main>
+</body>
+</html>
