@@ -1,7 +1,7 @@
 {
   "name": "wit",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "expo para wit",
   "main": "index.js",
   "directories": {
     "test": "test"
