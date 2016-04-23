@@ -1,5 +1,5 @@
 'use strict'
-var ip_server = 'http://127.0.0.1:3000';
+var ip_server = 'http://7c75a282.ngrok.io';
 casper.test.begin('Wit test example', 2, function suite(test) {
 	casper.start(ip_server, function() {
 		test.assertTitle("Login example", "demo website title");
