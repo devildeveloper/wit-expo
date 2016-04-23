@@ -9,10 +9,10 @@ casper.test.begin('Wit test example', 2, function suite(test) {
 			password:"12345678"
 		}, true);
 	});
-	casper.then(function() {
+	/*casper.then(function() {
 		// capture the entire page.
 		casper.capture("page.png");
-	});
+	});*/
 	casper.run(function() {
 		test.done();
 	});
