@@ -1,18 +1,18 @@
 'use strict'
-var ip_server = 'http://7c75a282.ngrok.io';
+var ip_server = 'https://www.google.com.pe';
 casper.test.begin('Wit test example', 2, function suite(test) {
 	casper.start(ip_server, function() {
-		test.assertTitle("Login example", "demo website title");
+		test.assertTitle("Google", "demo website title");
 		test.assertExists('form', "main form is found");
 		this.fill('form', {
-			email: "maliaga.pantoja@gmail.com",
-			password:"12345678"
+			q: "maliaga.pantoja@gmail.com"
 		}, true);
+		
 	});
-	/*casper.then(function() {
+	casper.then(function() {
 		// capture the entire page.
 		casper.capture("page.png");
-	});*/
+	});
 	casper.run(function() {
 		test.done();
 	});
