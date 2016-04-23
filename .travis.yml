@@ -6,4 +6,7 @@ before_install:
   - npm install -g casperjs
 before_script:
   - phantomjs --version
-  - casperjs --version	
+  - casperjs --version
+deploy:
+  provider: heroku
+  api_key: "fa8d3aa5-a57a-4d00-9017-b5833fcd0a6b"
