@@ -5,6 +5,5 @@ script: npm test
 before_install:
   - npm install -g casperjs
 before_script:
-  - npm start
   - phantomjs --version
   - casperjs --version	
